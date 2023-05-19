@@ -1,0 +1,43 @@
+.hero-section {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh5.googleusercontent.com%2Fproxy%2FmBXzVkB2XXqKh3io7yGYjCgqTsE-A7ehXjuFjjZghoIHCDLhq4P65_l-VSmeQSLAAOciKFy2wS8DmsP89-S72hjC_YDHHuYv1T94-m2EKJTWAXM84Rze7mtxerlEH9axn829Z9j6fsPXk4jK6KNLkjTOyCI%3Dw1200-h630-p-k-no-nu&f=1&nofb=1&ipt=8a9649cd9ff43475b37f893d8847acaca78e4da016b8b32b522464e6269d977c&ipo=images");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 150px;
+    transition: transform 2s ease-in-out;
+}
+
+img:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+.title{
+    font-size: 40px;
+    color: darkred;
+    font-family: "zombie";
+    margin-bottom: 5%;
+}
+
+.subtitle {
+    color: white;
+    animation: heart-pulse 3.0s infinite ease-out;
+}
+@keyframes heart-pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+   
+}
