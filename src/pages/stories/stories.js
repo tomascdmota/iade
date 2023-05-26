@@ -1,5 +1,5 @@
 import React from 'react'
-import "./stories.scss"
+import "./stories.css"
 import Navbar from '../../components/navbar/navbar'
 
 function stories() {
@@ -8,7 +8,7 @@ function stories() {
         <Navbar/>
         <div className='tabs'>
         
-        <h1 className='container-title'>Historias dos maiores serial killers</h1>
+        <h1 className='container-title'>Histórias dos maiores serial killers</h1>
 
 <main>
   

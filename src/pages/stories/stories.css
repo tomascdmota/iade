@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -89,6 +87,7 @@ input:checked + label {
 #tab4:checked ~ #content4 {
   display: block;
 }
+
 
 @media screen and (max-width: 650px) {
   label {

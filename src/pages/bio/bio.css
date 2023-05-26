@@ -1,0 +1,102 @@
+
+
+.atractions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.bio-title{
+    font-size: 18px;
+    color:#840404 ;
+    text-transform: uppercase;
+    padding-left: 40px;
+	margin-bottom: 5%;
+    font-family:Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+
+
+
+
+
+
+.cta img {
+	display: block;
+	width: 100%;
+	transform: none;
+	translate: none;
+	cursor: default;
+}
+
+h2 {
+	margin: 0;
+	font-size: 1.4rem;
+    color: white;
+}
+p {
+    color: white;
+}
+
+@media (min-width: 50em) {
+	h2 {
+		font-size: 1.8rem;
+	}
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cta {
+    display: flex;
+	--shadowColor: 153 60% 40%;
+	flex-wrap: no-wrap;
+    flex-direction: row;
+	background: #840404;
+	max-width: 90vw;
+    aspect-ratio: auto;
+	width: 100%;
+	border-radius: 0.8rem;
+	overflow: hidden;
+	border: 0.1rem solid white;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.cta img {
+	height: 300px;
+    max-width: 500px;
+	object-fit: cover;
+	flex: 1 1 300px;
+    border-radius: 10px;
+}
+
+.cta__text-column {
+	padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw);
+	flex: 1 0 50%;
+}
+
+.cta__text-column > * + * {
+	margin: min(1.5rem, 2.5vw) 0 0 0;
+}
+
+.cta a {
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	border-radius: 0.6rem;
+	font-weight: 700;
+    margin-top: 50px;
+    padding: 15px;
+	border: 0.2rem solid;
+}
